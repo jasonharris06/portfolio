@@ -55,6 +55,37 @@ h2{
  
 }
 
+.listlo-btn{
+  background-color: #008080 !important;
+    color: white !important;
+    border-radius: 0.25rem !important;
+}
+.listlo-btn:hover{
+  background-color: #F68B6B !important;
+  color: white !important;
+  border: 3px solid white !important;
+  border-radius: 0.25rem !important;
+}
+
+.listlo-card{
+  background-color: #1A4A55 !important;
+  border: 12px solid #F68B6B
+}
+
+.listlo-title{
+  width: 200px;
+  height: 200px;
+  
+  
+}
+/* .listlo-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+
+} */
+
 #navLink{
   text-align: right;
   float: right;

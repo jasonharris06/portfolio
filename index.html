@@ -23,7 +23,7 @@
   <body>
     <div class="wrapper">
       <div class="row no-gutters">
-        <div class="col-3 side-nav">
+        <div class="col-2 d-none d-sm-block side-nav">
           <img
             src="./Images/IMG_20180619_180745_683.jpg"
             class="mx-auto d-block"
@@ -41,7 +41,7 @@
         
 		</div>
 		<br>
-        <div class="col-9 content-wrapper ">
+        <div class="col-10 content-wrapper ">
           <nav id="top-nav">
             <ul class="nav justify-content-end">
               <li class="nav-item">
@@ -56,10 +56,11 @@
             </ul>
           </nav>
           <div class="row content">
-            <div class="col-3 about-me">
+            <!-- <div class="col-0 col-sm-3"></div> -->
+            <div class="col-md-3  about-me">
               <h2>About Me</h2>
             </div>
-            <div class="col-9">
+            <div class="col-md-9 ">
               <p class="about-me-content" id="about-me-content">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio,
                 consequatur vero magni quos et dolorum ipsum mollitia voluptas.
@@ -69,83 +70,37 @@
                 voluptatibus. Veniam sapiente ratione quo eius cumque?
               </p>
             </div>
-            <div class="col-3 projects" id="projects">
+            <div class="col-md-3 projects" id="projects">
               <h2>Projects</h2>
             </div>
-            <div class="col-9">
-              <div class="card-columns">
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                  <img src="..." class="card-img-top" alt="..." />
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">
-                      Some quick example text to build on the card title and
-                      make up the bulk of the card's content.
-                    </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
-                  </div>
-                </div>
+            <div class="col-md-9" id="card-columns">
+              <div class="card text-center ">
+                <div class="card-body">
+                  <h5 class="card-title">ExpLore</h5>
+                  <p class="card-text">This project</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>            
               </div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title">Node.js and Express Project</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>            
+              </div>
+              <div class="card text-center">
+                <div class="card-body">
+                  <h5 class="card-title"></h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>            
+              </div>
+
             </div>
-            <div class="col-3 contact">
+            <div class="col-md-3  contact">
               <h2>Contact</h2>
             </div>
-            <div class="col-9 contact-form" id="contact-form">
+            <div class="col-md-9 contact-form" id="contact-form">
 					<form>
 							<div class="form-group">
 							  <label for="exampleFormControlInput1">Email address</label>

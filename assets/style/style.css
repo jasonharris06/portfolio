@@ -55,6 +55,22 @@ h2{
  
 }
 
+.explore-title, .explore-text, .explore-btn{
+  font-family: 'Press Start 2P' !important;
+  background-color: '#474853';
+  color: white
+}
+
+.explore-btn{
+  background-color: #844d36 !important
+}
+.explore-card{
+  background-color: #474853;
+  border: solid !important ;
+  border-color: #8E8269 !important;
+  
+}
+
 .listlo-btn{
   background-color: #008080 !important;
     color: white !important;
